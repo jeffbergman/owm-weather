@@ -1,0 +1,6 @@
+/* In a larger project, I would separate the scss into separate files
+		for this, I'm just importing _app.scss and _normalize.scss into index.scss 
+*/
+
+@import './css/partials/normalize';
+@import './css/partials/app';
