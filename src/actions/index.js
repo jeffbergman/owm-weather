@@ -186,7 +186,7 @@ const forecastFromWeather = forecastData => {
 		const itemDayOfWeek = moment(item.dt * 1000).format("dddd"); 
 		
 		//only use the items after today
-		if (itemDayOfYear > todayDayOfYear) {
+		if (parseInt(itemDayOfYear) > parseInt(todayDayOfYear)) {
 			
 			//set up a new object with the day's info and push it to the forecastArr
 			if (itemDayOfWeek !== currDay) {
