@@ -4,6 +4,7 @@ import { NIGHT } from '../actions';
 
 
 class BigDummy extends Component {
+
 	//displays an item in the forecast array
 	//if there aren't any it won't display
 
