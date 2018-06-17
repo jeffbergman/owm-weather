@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 const ErrorMsg = (props) => {
 	//just displays an error message if one exists
+
+	//and here's another comment to test with git
 	
 	if (!props.errMsg) return null;
 
