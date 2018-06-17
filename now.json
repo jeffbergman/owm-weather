@@ -1,0 +1,5 @@
+{
+  "env": {
+    "REACT_APP_WEATHER_API_KEY": "@open-weather-map-api-key"
+  }
+}

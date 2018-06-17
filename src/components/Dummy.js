@@ -3,7 +3,8 @@ import { titleCase, iconNbr } from '../helpers';
 import { NIGHT } from '../actions';
 
 
-class Dummy extends Component {
+class BigDummy extends Component {
+
 	//displays an item in the forecast array
 	//if there aren't any it won't display
 
@@ -38,4 +39,4 @@ class Dummy extends Component {
 
 }
 
-export default Dummy;
+export default BigDummy;
